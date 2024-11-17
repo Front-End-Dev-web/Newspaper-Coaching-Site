@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header id="header" class="container-fluid">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid ">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand d-lg-none d-block top-nav-brand" href="#">
+            <h2>Coaching PRO</h2>
+            <span>by Patrick Halloway</span>
+          </a>
+          <button class="btn btn-outline-none  mx-1 d-lg-none d-block search-btn"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item" id="dropdwn">
+                <a class="nav-link " href="#">
+                  Courses <i class="fa-solid fa-caret-right"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+            </ul>
+
+            <div id="mid-navbar-brand" class="navbar-brand me-auto d-lg-block d-none" href="#">
+              <h2>Coaching PRO</h2>
+
+
+              <span>by Patrick Halloway</span>
+
+
+            </div>
+
+            <form class="d-flex myform d-lg-block d-none" role="search" id="myform">
+              <button class="btn btn-outline-success mx-1"><i class="fa-regular fa-user"></i></button>
+              <button class="btn btn-outline-success mx-1 search-btn"><i
+                  class="fa-solid fa-magnifying-glass"></i></button>
+              <button class="btn btn-outline-success mx-1" type="submit">Pricing Plans</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="form">
+
+      <form class="w-100 ">
+        <div class="container">
+          <div class=" ">
+
+            <input type="email" class="w-100 py-2" placeholder="search here ....">
+            <button type="submit" class="btn btn-secondary  ">Search</button>
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="container" id="dropdown-menu">
+      <div class="container-fluid py-1 px-0 py-md-5 px-md-5">
+        <div class="container ">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2  row-cols-lg-3">
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Business Mastery</h5>
+                  <div class="">
+                    <a href="#">
+                      Data-Driven Decision Making: Analytics for Business Mastery
+                    </a><br>
+                    <a href="#">
+                      Innovation and Adaptability: Thriving in a Rapidly Changing Business Landscape
+                    </a><br>
+                    <a href="#">
+                      Financial Management: Mastering Numbers for Profitability and Sustainable Growth
+                    </a>
+
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Financial Intelligence</h5>
+                  <div class="">
+                    <a href="#">Cash Flow Management: Optimizing Your Financial Resources to Perfection</a>
+                    <br> <a href="#">Building a Strong Financial Foundation: The Basics of Financial Intelligence</a>
+                    <br> <a href="#">Risk Management and Insurance Essentials: Safeguarding Your Financial Future</a>
+
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Mindset and Mindfulness</h5>
+                  <div class="">
+                    <a href="#">
+                      Mastering the Growth Mindset: Unleashing Your Full Potential for Success
+                    </a>
+                    <br> <a href="#">
+                      The Power of Positivity: Cultivating a Mindset of Optimism and Abundance
+                    </a>
+                    <br> <a href="#">
+                      Mindfulness in Everyday Life: Embracing the Moment for Inner Peace
+                    </a>
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Motivation and Goal Setting</h5>
+                  <div class="">
+                    <a href="">Ignite Your Inner Drive: Mastering Unstoppable Motivation for Success
+                    </a>
+                    <br> <a href="">Setting and Achieving SMART Goals: The Blueprint to Accomplishment
+                    </a>
+                    <br> <a href="">Creating a Motivating Environment: Building Support and Trust
+                    </a>
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Personal Development</h5>
+                  <div class="">
+                    <a href="">Building Resilience: Embracing Change and Overcoming Obstacles
+                    </a>
+                    <br> <a href="">Cultivating a Growth Mindset: Thriving in the Face of Challenges
+                    </a>
+                    <br> <a href="">Goal Setting and Action Planning: Transforming Dreams into Reality
+                    </a>
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+
+                <div class="card-body">
+                  <h5 class="card-title">Professional Growth</h5>
+                  <div class="">
+                    <a href="">Professional Networking: Building Connections for Career Advancement
+                    </a>
+                    <br> <a href="">Mastering Time Management: Maximizing Productivity and Efficiency
+
+                    </a>
+                    <br><a href="">Building a Personal Brand: Establishing a Great Professional Identity
+                    </a>
+                  </div>
+                  <a href="#" class="more">More</a>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+    <section id="hero" class="py-5">
+      <div class="container-fluid col-xxl-8 px-4 py-5">
+        <div class="row flex-sm-reverse flex-md-reverse flex-lg-row align-items-center g-5 py-0">
+     
+          <div class="col-12 col-sm-12 col-lg-7">
+            <span class="lead span-text fs-5">Patrick Halloway</span>
+            <div class="display-3 fw-bold lh-3 mb-3 ">Paving your <div id="video"><video autoplay muted>
+                  <source src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/movie-1.mp4">
+                </video></div>
+              Path to Financial Success</div>
+            <p class="lead col-lg-11 lh-5">A passionate business coach with over 30 years of experience, dedicated to
+              empowering individuals to reach their full potential by providing courses that inspire growth and drive
+              success.</p>
+            <div class="d-grid gap-2 d-flex mt-5 h-btn">
+              <button type="button" class="btn  btn-lg  me-md-2">Get Started</button>
+              <button type="button" class="btn  btn-lg "><span class="">View All Courses</span><i
+                  class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="col-10 col-sm-12 col-lg-5">
+            <img src="images/hero-img-final.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+              height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid banner py-5">
+        <footer class="row gy-5">
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 mb-3">
+            <div class="card">
+
+              <div class="card-body">
+                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    fill="currentColor" class="bi bi-box-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.004-.001.274-.11a.75.75 0 0 1 .558 0l.274.11.004.001zm-1.374.527L8 5.962 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339Z" />
+                  </svg> Online Courses
+                </h5>
+                <p class="card-text">Gain access to a multitude of classes from all business domains.
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 mb-3">
+            <div class="card">
+
+              <div class="card-body">
+                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+                    <path
+                      d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                  </svg> 1 on 1 Sessions
+                </h5>
+                <p class="card-text">Want direct contact with me? Let's make an appointment.
+
+                  .</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 mb-3">
+            <div class="card">
+
+              <div class="card-body">
+                <h5 class="card-title"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                    fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                    <path
+                      d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z" />
+                  </svg> 5 star Rating</h5>
+                <p class="card-text">Join the community of over one thousand happy students.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-3 py-md-4 mt-md-5 py-lg-4 mt-lg-5">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+
+              <img src="images/badge-1.png " class="img-fluid" alt="">
+            </a>
+            <p class="text-body-secondary">© 2024</p>
+          </div>
+        </footer>
+      </div>
+
+    </section>
+
+
+
+    <section id="area">
+      <div class="container-fluid">
+        <div class="px-4 py-5 my-5 text-center col-lg-12">
+
+          <h1 class="display-5 fw-bold heading">Covering all areas</h1>
+          <div class="col-lg-10 mx-auto">
+            <p class="lead mt-4 col-lg-12">Are you ready to take your business and personal growth to new heights?
+              Discover a wealth of transformative courses designed to empower entrepreneurs, professionals, and
+              individuals alike from essential topics in business, motivation, mindset, growth, and personal
+              development.
+
+            </p>
+
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-sm-5  py-5 area-card">
+          <div class="col">
+            <div class="card">
+              <img src="images/001.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Business Mastery
+                </h5>
+                <p class="card-text">Master the art of business with courses that cover essential skills you need to
+                  thrive in today’s business environment.
+
+                  .</p>
+                <button class="btn btn-secondary text-center  "> <span>Explore </span> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                  </svg> </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/002.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Personal Development</h5>
+                <p class="card-text">Invest in your personal growth with courses that help you discover your purpose and
+                  develop habits for success.</p>
+                <button class="btn btn-secondary text-center "> <span>Explore </span> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                  </svg> </button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/003.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Professional Growth</h5>
+                <p class="card-text">Accelerate your career with courses designed to advance your professional journey
+                  by building a personal brand.</p>
+                <button class="btn btn-secondary text-center "> <span>Explore </span> <svg
+                    xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                  </svg></button>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <section id="about" class="">
+      <div class="container-fluid col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="images/about-img-e1687422797730.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+              width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class=" fw-bold lh-1 mb-3"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M448 296c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72zm-256 0c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72z" />
+              </svg>The belief that you can improve will <a href="#">motivate</a> you to persevere, despite any
+              obstacles <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M448 296c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72zm-256 0c0 66.3-53.7 120-120 120l-8 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l8 0c30.9 0 56-25.1 56-56l0-8-64 0c-35.3 0-64-28.7-64-64l0-64c0-35.3 28.7-64 64-64l64 0c35.3 0 64 28.7 64 64l0 32 0 32 0 72z" />
+              </svg></h1>
+            <p class="lead">Patrick Halloway is recognized for his expertise in helping individuals unleash their
+              potential. With a genuine passion for personal development and a proven track record of success, Patrick
+              empowers clients to overcome obstacles, cultivate a growth mindset, and achieve their goals..</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-5 py-3 me-md-2">More about Patrick</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="banner">
+      <div class="banner-card">
+        <div class="card mb-3 py-4" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="first-section-card-img">
+                <h1>Book a 1-on-1
+                </h1>
+                <h1>Call Session</h1>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+
+                <p class="card-text">Want Patrick's full attention? Nothing compares with a live one on one strategy
+                  call! You can express all your concerns and get the best and most straight forward learning
+                  experience.</p>
+                <button class="btn">Book Strategy Call <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                    fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                  </svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+    <div class="container-fluid">
+
+      <section id="blog" class="py-5">
+        <div class="container-fluid">
+          <div class="blog-heading row g-5 py-5">
+            <div class="col-12 col-md-12 col-lg-12 first ">
+              <h1>Get enrolled in the courses</h1>
+              <button class="mx-4"><video autoplay muted>
+                <source src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/movie-1.mp4">
+              </video> <span>YES,I WANT IN !</span> </button></div>
+      
+             
+            </div>
+            <div class="col-sm-12 col-md-8 second ">   <p>The most popular expertly crafted courses, carefully created to cover essential topics in business,
+              motivation, mindset, growth, and personal development.
+
+            </p></div>
+
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 py-5">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/shutterstock_1233205321-696x464.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body py-3">
+                  <h5 class="card-title"><a href="">Mastering Time Management: Maximizing Productivity and
+                      Efficiency</a></h5>
+                  <p class="card-text">Maximizing Productivity and Efficiency: This course equips individuals with
+                    practical strategies to manage...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">10h<i class="fa-solid fa-clock-rotate-left"></i></small>
+                  <small class="text-muted">English</small>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/shutterstock_1224867583-696x464.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body py-3">
+                  <h5 class="card-title"> <span>Exclusive</span> <a href="">Professional Networking: Building
+                      Connections for Career Advancement</a></h5>
+                  <p class="card-text">Participants will learn effective networking techniques, how to build
+                    relationship, and expanding professional...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">12h<i class="fa-solid fa-clock-rotate-left"></i></small>
+                  <small class="text-muted">English</small>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/shutterstock_1751362241-696x464.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body py-3">
+                  <h5 class="card-title"> <span>Exclusive</span> <a href="">Data-Driven Decision Making Analytics for
+                      Business Mastery</a></h5>
+                  <p class="card-text">Students will harness the power of data analytics to make informed decisions,
+                    identify...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">12h<i class="fa-solid fa-clock-rotate-left"></i></small>
+                  <small class="text-muted">English</small>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="https://demo.tagdiv.com/newspaper_coaching_pro/wp-content/uploads/2023/05/shutterstock_1751362241-696x464.jpg"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> <span>Exclusive</span> <a href="">Building a Personal Brand: Establishing a
+                      Great Professional Identity</a></h5>
+                  <p class="card-text">Participants learn how to build a strong personal brand, including online
+                    presence, networking,...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">12h<i class="fa-solid fa-clock-rotate-left"></i></small>
+                  <small class="text-muted">English</small>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+
+
+    </div>
+
+    
+<section id="marqueebanner" class="py-5">
+  <div class="marqueebanner">
+    <div class="mq1">
+      <h2>Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level -
+        Take your personal skill to the next level</h2>
+    </div>
+    <div class="mq2">
+      <h2>A simple & effective way to help you grow -
+        A simple & effective way to help you grow -
+        A simple & effective way to help you grow -
+        A simple & effective way to help you grow -
+        A simple & effective way to help you grow -
+        A simple & effective way to help you grow -
+        A simple & effective way to help you grow</h2>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+  <section id="testimonal" class="py-5">
+    <div class="testimonal" class="py-5">
+      <div class="container text-center py-5">
+<div class="mb-5"><i class="fa-solid fa-quote-left"></i></div>
+        <div class="card py-5" style="min-width: 18rem; ">
+       <div class="card-img">
+        <img src="../003.jpg" class="card-img-top" alt="...">
+        <div class="card-img-prof">
+          <h2>Victoria Anderson</h2>
+          <span>CEO @ Baker Paradise</span>
+        </div>
+       </div>
+          <div class="card-body">
+           
+            <p class="card-text">Patrick is exceptional! With his guidance, I transformed my business from an idea to a thriving reality. His expertise and support were invaluable on my entrepreneurial journey. I highly recommend him and also his coaching services!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+<section class="container-fluid">
+  
+<div id="latest-post">
+  
+  <div class="latest-post">
+    <div class="latest-post-heading">
+      <div class="first">
+        <h2>Latest from the blog</h2>
+      </div>
+      <div class="second">
+        <button>See all articles <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg></button>
+      </div>
+    </div>
+  
+
+  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4  p-1 py-4">
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/20-696x464.jpg" class="img-fluid " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/22-696x464.jpg" class="img-fluid " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/21-696x464.jpg" class="img-fluid " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/23-696x464.jpg" class="img-fluid " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/25-696x464.jpg" class="img-fluid " alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-3" style="">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/23-696x464.jpg" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href="">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></h5>
+              <p class="card-text"><button >READ MORE</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="faq" class="py-5">
+    <div class="container">
+
+      <div class="px-4 py-5 my-5 text-center">
+     
+        <h1 class="display-5 fw-bold faq-heading">FAQ</h1>
+        <div class="col-lg-8 mt-5 mx-auto">
+          <p class="lead mb-4">Got questions? Explore my FAQ section to find the information you need to help you get started on your journey to personal and professional growth.
+
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion accordion-flush " id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+              What makes Patrick Halloway's coaching approach unique?
+            </button>
+          </h2>
+          <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Patrick's coaching approach is tailored to each individual's needs, combining practical strategies with personalized guidance. He focuses on mindset, skill development, and accountability, ensuring a holistic and effective coaching experience.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+              How long are the courses offered by Patrick Halloway?
+            </button>
+          </h2>
+          <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Patrick's coaching approach is tailored to each individual's needs, combining practical strategies with personalized guidance. He focuses on mindset, skill development, and accountability, ensuring a holistic and effective coaching experience.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+              Can I benefit from Patrick's coaching even if I'm just starting my business?
+            </button>
+          </h2>
+          <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Absolutely! Patrick specializes in helping entrepreneurs at all stages of their journey. His coaching will provide you with valuable insights, strategies, and support to lay a strong foundation and set you on the path to success.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How often will I have live coaching sessions with Patrick Halloway?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The frequency of live one on one coaching sessions is determined based on your specific needs and goals. Typically, sessions are scheduled on a weekly or bi-weekly basis to maintain consistent progress and ensure ongoing support.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Can I get a refund if I'm not satisfied with the course or coaching?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Patrick Halloway offers a satisfaction guarantee. If you are not completely satisfied with the course or coaching services, reach out within a specified timeframe, and a refund or alternative arrangement will be considered to address your concerns.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-grid gap-2 col-12 col-md-12 mx-auto mt-5 d-flex justify-content-center ">
+         <button class="btn" id="btn">Ask me anything  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg></button>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <section id="newsletter" class="py-5">
+    <div class="px-4 py-3 my-2 text-center">
+     
+      <h1 class="display-5 fw-bold ">Connect with Patrick</h1>
+      <div class="col-lg-7 mx-auto  lh-2">
+        <p class="lead mb-4">
+          Subscribe to the newsletter and get updates from Patrick and his team straight to your Inbox. Never miss a new course launch or a new article!</p>
+        
+      </div>
+    </div>
+   <div class="container">
+    <form class="">
+      <div class="mb-0 form-b">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Adress"> 
+        <button type="submit" class="btn ">Subscribe</button>
+      </div>
+     
+  
+    </form>
+   </div>
+  </section>
+
+
+
+
+  <div class="container-fluid" id="footer">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 my-0 " >
+      <div class="col-12 col-md-4 col-lg-3 mb-3 px-md-4 d-flex align-items-start flex-column ">
+        <a class="footer-brand  top-footer-brand mb-3" href="#">
+          <h2>Coaching PRO</h2>
+          <span>by Patrick Halloway</span>
+        </a>
+       <div class="caption-footer">
+        <span>
+          © tagDiv. All rights reserved. Coaching PRO is a fresh multipurpose Prebuilt Website with a wide range of usability.
+        </span>
+       </div>
+      </div>
+
+
+
+      <div class="col-12 col-md-4 col-lg-3 mb-3">
+        <h5>Resources</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Business Mastery</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Financial Intelligence</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Mindset and Mindfulness</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Motivation and Goal Setting</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Personal Development</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Professional Growth</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-3 mb-3">
+        <h5>Articles</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">The Growth Mindset Advantage: Embracing Change and Innovation for Success</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">Scaling New Heights: Strategies for Scaling and Expanding Your Business</a></li>
+          <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-body-secondary">From Small Steps to Giant Leaps: Fostering Sustainable Business Growth</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 col-lg-3 mb-3 social-links">
+        <h5>Socials</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mt-4"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+          <li class="nav-item mt-4"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a></li>
+          <li class="nav-item mt-4"><a href="#" class="nav-link p-0 text-body-secondary"><i class="fa-brands fa-x-twitter"></i>Twitter</a></li>
+  
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
